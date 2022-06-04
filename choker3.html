@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Choker3
+    </title>
+    <link href="choker3.css" rel="stylesheet">
+    <script src="choker3.js"></script>
+  </head>
+  <body>
+    <header> 
+      <div>
+        <img src="images/AluraLogo.jfif" alt="logo" class="size" width="200px" height="30">
+        <img src="images/RealOne.png" alt="partner" class="size" width="200px" height="30">
+    </div>
+    </header>
+    <div id="choker3-wrap">
+      <!-- (A) LEFT : CHOKER3 & LIVES -->
+      <div id="choker3-left">
+        <img id="choker3-img" src="images\choker3.png"/> <br><br>
+        <div id="choker3-lives-w">
+          REMAIN: <span id="choker3-lives"></span>
+        </div>
+      </div>
+
+      <!-- (B) RIGHT : GAME INTERFACE -->
+      <div id="choker3-right">
+        <!-- (B1) CURRENT WORD(S) -->
+        <div id="choker3-words"></div>
+
+        <!-- (B2) AVAILABLE CHARACTERS -->
+        <div id="choker3-char"></div>
+
+        <!-- (B3) RESET -->
+        <input type="button" value="Reset" id="choker3-reset" disabled/>
+      </div>
+    </div>
+  </body>
+</html>
