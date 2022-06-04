@@ -1,0 +1,68 @@
+/* (A) GAME WRAPPER */
+#choker3-wrap {
+  display: flex;
+  max-width: 750px;
+  height: 300px;
+  margin: 0 auto;
+  background: yellow;
+  padding-top: 40px;
+  border-radius: 20px;
+}
+#choker3-left, #choker3-right { padding: 10px; }
+#choker3-left { width: 30%; text-align: center; }
+#choker3-right { width: 70%; }
+
+/* (B) COMMON INTERFACE */
+#choker3-wrap, #choker3-wrap input {
+  font-family: Impact, sans-serif;
+  font-size: 20px;
+}
+#choker3-wrap input {
+  padding: 5px 20px;
+  margin: 2px;
+  background: #e46810;
+  color: lawngreen;
+  border: 0;
+}
+#choker3-wrap input[type=button]:disabled {
+  background: aquamarine;
+  color: #ccc;
+}
+
+/* (C) LEFT - CHOKER IMAGE */
+#choker3-img {
+  max-width: 100%;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+/* (D) RIGHT - CURRENT WORD(S) */
+#choker3-words span {
+  font-size: 30px;
+  display: inline-block;
+  margin: 5px;
+}
+
+/* (E) RIGHT - AVAILABLE CHARACTERS */
+#choker3-char { margin: 10px 0; }
+
+#choker3-lives-w {color: purple;}
+
+#choker3-lives {color: red;}
+
+header {
+  height: 40px;
+  width: 70%;
+  background-color: aqua;
+  justify-content: space-between;
+  border: 3px solid blue;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 140px;
+  margin-bottom: 2px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.size:hover {transform: scale(2);}
+
+
